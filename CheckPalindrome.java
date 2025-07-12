@@ -1,15 +1,12 @@
 public class CheckPalindrome {
     public static void main(String[] args) {
-        String str = "hello";
+        String str = "Madam";
         int s =0;
         int e = str.length()-1;
         checkPalindromeString(str, s, e);
     }
     public static void checkPalindromeString(String str, int s, int e){
-        if(str.length()==1){
-            System.out.println("palindrome string");
-            return;
-        }
+        str = str.toLowerCase();
         boolean  b = false;
         while(s<e){
             if(str.charAt(s)!=str.charAt(e)){
