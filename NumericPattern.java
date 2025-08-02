@@ -9,5 +9,6 @@ public class NumericPattern {
             }
             System.out.println();
         }
+        System.out.println("Created by: [Your Name]");
     }
 }
