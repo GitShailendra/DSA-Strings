@@ -2,6 +2,7 @@ public class Remove{
     public static void main(String[] args) {
         String str = "   hello   ";
         removeSp(str);
+        System.err.println("Code provided by");
     }
 
     public static void removeSp(String  str){
